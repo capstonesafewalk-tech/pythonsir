@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="pyBlue" x1="18" y1="6" x2="39" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5A9FD4"/>
+      <stop offset="1" stop-color="#306998"/>
+    </linearGradient>
+    <linearGradient id="pyYellow" x1="27" y1="29" x2="47" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD43B"/>
+      <stop offset="1" stop-color="#FFE873"/>
+    </linearGradient>
+  </defs>
+  <path d="M31.5 5C23 5 18 8.8 18 15V21H32V23H12.8C7.2 23 5 28.3 5 34C5 39.7 8.2 45 13.8 45H18V38.8C18 32.7 22.6 29 28.7 29H42.8C47.7 29 51 25.4 51 20.5V15C51 8.8 46 5 37.5 5H31.5ZM27 11.3C29 11.3 30.6 12.9 30.6 14.9C30.6 16.9 29 18.5 27 18.5C25 18.5 23.4 16.9 23.4 14.9C23.4 12.9 25 11.3 27 11.3Z" fill="url(#pyBlue)"/>
+  <path d="M32.5 59C41 59 46 55.2 46 49V43H32V41H51.2C56.8 41 59 35.7 59 30C59 24.3 55.8 19 50.2 19H46V25.2C46 31.3 41.4 35 35.3 35H21.2C16.3 35 13 38.6 13 43.5V49C13 55.2 18 59 26.5 59H32.5ZM37 52.7C35 52.7 33.4 51.1 33.4 49.1C33.4 47.1 35 45.5 37 45.5C39 45.5 40.6 47.1 40.6 49.1C40.6 51.1 39 52.7 37 52.7Z" fill="url(#pyYellow)"/>
+</svg>

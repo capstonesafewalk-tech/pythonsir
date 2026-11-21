@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cubeTop" x1="12" y1="8" x2="50" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="8" y1="28" x2="31" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="33" y1="28" x2="57" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D56D8"/>
+      <stop offset="1" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 6L55 19.5V44.5L32 58L9 44.5V19.5L32 6Z" fill="#DBEAFE" fill-opacity="0.22"/>
+  <path d="M32 10L50 20.5L32 31L14 20.5L32 10Z" fill="url(#cubeTop)"/>
+  <path d="M14 24.5L30 33.5V52L14 43V24.5Z" fill="url(#cubeLeft)"/>
+  <path d="M50 24.5L34 33.5V52L50 43V24.5Z" fill="url(#cubeRight)"/>
+  <path d="M32 33L40 37.5L32 42L24 37.5L32 33Z" fill="#BFDBFE" fill-opacity="0.65"/>
+  <path d="M32 42V51" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+</svg>

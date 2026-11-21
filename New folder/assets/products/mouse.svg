@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="msBg" x1="18" y1="10" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EDF3FA"/>
+    </linearGradient>
+    <linearGradient id="msBody" x1="86" y1="48" x2="162" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="msBlue" x1="112" y1="48" x2="137" y2="85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#1D56D8"/>
+    </linearGradient>
+    <filter id="msShadow" x="55" y="34" width="130" height="184" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#64748B" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#msBg)"/>
+  <circle cx="196" cy="52" r="38" fill="#DBEAFE" fill-opacity="0.62"/>
+  <circle cx="42" cy="194" r="44" fill="#E0E7FF" fill-opacity="0.55"/>
+  <g filter="url(#msShadow)">
+    <path d="M120 40C89 40 70 66 70 100V148C70 182 91 203 120 203C149 203 170 182 170 148V100C170 66 151 40 120 40Z" fill="url(#msBody)" stroke="#CBD5E1" stroke-width="2"/>
+    <path d="M120 40C101 40 86 54 79 76H161C154 54 139 40 120 40Z" fill="url(#msBlue)"/>
+    <path d="M120 44V92" stroke="#BFDBFE" stroke-width="2" stroke-linecap="round"/>
+    <rect x="114" y="59" width="12" height="26" rx="6" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="117" y="64" width="6" height="14" rx="3" fill="#1D56D8"/>
+    <path d="M90 121C96 117 105 115 112 116" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

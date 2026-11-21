@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="kbBg" x1="20" y1="12" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF3F9"/>
+    </linearGradient>
+    <linearGradient id="kbBase" x1="48" y1="76" x2="192" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="kbShadow" x="30" y="64" width="180" height="120" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#64748B" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#kbBg)"/>
+  <circle cx="196" cy="44" r="36" fill="#DBEAFE" fill-opacity="0.65"/>
+  <circle cx="38" cy="200" r="42" fill="#E0E7FF" fill-opacity="0.5"/>
+  <g filter="url(#kbShadow)">
+    <rect x="43" y="78" width="154" height="86" rx="15" fill="url(#kbBase)" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="51" y="88" width="138" height="66" rx="9" fill="#F1F5F9"/>
+    <g fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1">
+      <rect x="57" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="69" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="81" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="93" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="105" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="117" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="129" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="141" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="153" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="165" y="94" width="9" height="10" rx="2.5"/>
+      <rect x="177" y="94" width="6" height="10" rx="2.5"/>
+      <rect x="57" y="107" width="13" height="10" rx="2.5"/>
+      <rect x="73" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="85" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="97" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="109" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="121" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="133" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="145" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="157" y="107" width="9" height="10" rx="2.5"/>
+      <rect x="169" y="107" width="14" height="10" rx="2.5"/>
+      <rect x="57" y="120" width="17" height="10" rx="2.5"/>
+      <rect x="77" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="89" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="101" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="113" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="125" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="137" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="149" y="120" width="9" height="10" rx="2.5"/>
+      <rect x="161" y="120" width="22" height="10" rx="2.5"/>
+      <rect x="57" y="133" width="22" height="10" rx="2.5"/>
+      <rect x="82" y="133" width="9" height="10" rx="2.5"/>
+      <rect x="94" y="133" width="9" height="10" rx="2.5"/>
+      <rect x="106" y="133" width="38" height="10" rx="2.5"/>
+      <rect x="147" y="133" width="9" height="10" rx="2.5"/>
+      <rect x="159" y="133" width="9" height="10" rx="2.5"/>
+      <rect x="171" y="133" width="12" height="10" rx="2.5"/>
+    </g>
+    <rect x="57" y="146" width="11" height="5" rx="2.5" fill="#93C5FD"/>
+    <rect x="172" y="146" width="11" height="5" rx="2.5" fill="#93C5FD"/>
+  </g>
+</svg>

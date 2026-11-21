@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="gnBg" x1="16" y1="12" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EDF3FA"/>
+    </linearGradient>
+    <linearGradient id="gnTop" x1="72" y1="68" x2="168" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="gnLeft" x1="66" y1="104" x2="116" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D56D8"/>
+    </linearGradient>
+    <linearGradient id="gnRight" x1="124" y1="104" x2="178" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D56D8"/>
+      <stop offset="1" stop-color="#132B55"/>
+    </linearGradient>
+    <filter id="gnShadow" x="40" y="46" width="160" height="166" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#64748B" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#gnBg)"/>
+  <circle cx="198" cy="48" r="38" fill="#DBEAFE" fill-opacity="0.64"/>
+  <circle cx="40" cy="198" r="44" fill="#E0E7FF" fill-opacity="0.55"/>
+  <g filter="url(#gnShadow)">
+    <path d="M120 52L180 86V158L120 192L60 158V86L120 52Z" fill="#DBEAFE" fill-opacity="0.4"/>
+    <path d="M120 66L166 92L120 118L74 92L120 66Z" fill="url(#gnTop)"/>
+    <path d="M74 103L114 126V174L74 151V103Z" fill="url(#gnLeft)"/>
+    <path d="M166 103L126 126V174L166 151V103Z" fill="url(#gnRight)"/>
+    <path d="M120 125L140 136L120 147L100 136L120 125Z" fill="#BFDBFE" fill-opacity="0.8"/>
+    <path d="M120 147V170" stroke="#93C5FD" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
